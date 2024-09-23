@@ -1,0 +1,42 @@
+/* #nao:hover{
+
+    margin-left: 50%;
+}
+#nao{
+    height: 50px;
+    width: 70px;
+    position:absolute;
+    padding: 15px;
+    margin: 15px;
+    border: 15px;
+}
+#sim{
+    height: 50px;
+    width: 70px;
+    border: 15px;
+    padding: 15px;
+    margin: 15px;
+} */
+ 
+/*botão sim e não*/
+
+#title{
+    font-family: monospace;
+    border-right: 1.5px solid;
+    white-space: nowrap;
+    width: 18ch;
+    overflow: hidden;
+    animation: animaTexto steps(18) 2s, animaMarcador 0.5s linear infinite  ;
+
+}
+@keyframes animaTexto{
+    0%{
+        width: 0;
+    }
+}
+
+@keyframes animaMarcador {
+    50%{
+        border-right: transparent;
+    }
+}
